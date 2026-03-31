@@ -1,0 +1,175 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Davide Bianchi — Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" />
+</head>
+
+<body>
+    <div class="bg"></div>
+
+    <header class="wrap">
+        <div class="top">
+            <div>
+                <h1>Davide Bianchi</h1>
+
+                <p class="subtitle">
+                    React • JavaScript • TypeScript • Angular • HTML • CSS
+                </p>
+            </div>
+
+            <nav class="links">
+                <a class="chip" href="https://github.com/DavideB96" target="_blank" rel="noreferrer">
+                    <i class="fa-brands fa-github"></i>
+                    <span>GitHub</span>
+                </a>
+
+                <a class="chip" href="https://www.linkedin.com/in/davide-bianchi-052857173/" target="_blank"
+                    rel="noreferrer">
+                    <i class="fa-brands fa-linkedin-in"></i>
+                    <span>LinkedIn</span>
+                </a>
+
+                <a class="chip" href="mailto:davidebianchi08@gmail.com">
+                    <i class="fa-solid fa-envelope"></i>
+                    <span>Email</span>
+                </a>
+            </nav>
+        </div>
+
+        <p class="about">
+            Frontend Developer focused on building clean, responsive and intuitive
+            web interfaces, with a strong emphasis on user experience and modern
+            frontend development.
+        </p>
+    </header>
+
+    <main class="wrap">
+        <section class="section">
+            <h2>Projects</h2>
+
+            <div class="grid">
+                <!-- CRM — Full-Stack -->
+                <article class="card featured">
+                    <div class="card-head">
+                        <h3>CRM — Customer Management</h3>
+                        <div class="tag-group">
+                            <span class="tag accent">Full-Stack</span>
+                        </div>
+                    </div>
+                    <p class="desc">
+                        Full-stack CRM application built from real contact center experience.
+                        Features JWT authentication, PostgreSQL relational database, REST API
+                        with Express, and a responsive React frontend with real-time search,
+                        form validation and toast notifications.
+                    </p>
+                    <div class="actions">
+                        <a class="btn" href="https://crm-project-theta-six.vercel.app/" target="_blank">Live</a>
+                        <a class="btn ghost" href="https://github.com/DavideB96/crm-project" target="_blank">Code</a>
+                    </div>
+                </article>
+
+                <!-- DREAM TRIPS PLANNER -->
+                <article class="card">
+                    <div class="card-head">
+                        <h3>Dream Trips Planner</h3>
+                        <span class="tag">React</span>
+                    </div>
+                    <p class="desc">
+                        Web application for exploring and planning trips built with React.
+                        Allows filtering destinations, saving favorites and browsing detailed
+                        itineraries, with a modern and responsive interface.
+                    </p>
+                    <div class="actions">
+                        <a class="btn" href="https://dream-trips-planner.vercel.app" target="_blank">Live</a>
+                        <a class="btn ghost" href="https://github.com/DavideB96/DreamTripsPlanner"
+                            target="_blank">Code</a>
+                    </div>
+                </article>
+
+                <!-- Urban WIP -->
+                <article class="card">
+                    <div class="card-head">
+                        <h3>Urban WIP — Mini E-commerce</h3>
+                        <span class="tag">LocalStorage</span>
+                    </div>
+                    <p class="desc">
+                        Mini e-commerce built with JavaScript and Bootstrap. Includes cart
+                        and wishlist management with localStorage persistence, dynamic
+                        quantity updates and a responsive user-focused interface.
+                    </p>
+                    <div class="actions">
+                        <a class="btn" href="https://davideb96.github.io/urban-wip-ecommerce/" target="_blank">Live</a>
+                        <a class="btn ghost" href="https://github.com/DavideB96/urban-wip-ecommerce"
+                            target="_blank">Code</a>
+                    </div>
+                </article>
+
+                <!-- EasyTrack Angular -->
+                <article class="card">
+                    <div class="card-head">
+                        <h3>EasyTrack</h3>
+                        <span class="tag">Angular</span>
+                    </div>
+                    <p class="desc">
+                        Task management web application built with Angular. Allows assigning
+                        tasks to team members, tracking their status and organizing work in
+                        a simple and effective way.
+                    </p>
+                    <div class="actions">
+                        <a class="btn" href="https://easytrack-task-manager.vercel.app/" target="_blank">Live</a>
+                        <a class="btn ghost" href="https://github.com/DavideB96/easytrack-task-manager"
+                            target="_blank">Code</a>
+                    </div>
+                </article>
+
+                <!-- Weather App -->
+                <article class="card">
+                    <div class="card-head">
+                        <h3>Weather App</h3>
+                        <span class="tag">API</span>
+                    </div>
+                    <p class="desc">
+                        OpenWeather API integration with loading states, error handling
+                        and last searched city saved with localStorage.
+                    </p>
+                    <div class="actions">
+                        <a class="btn" href="https://davideb96.github.io/WeatherApp/" target="_blank">Live</a>
+                        <a class="btn ghost" href="https://github.com/DavideB96/WeatherApp" target="_blank">Code</a>
+                    </div>
+                </article>
+
+                <!-- Angular Landing Page -->
+                <article class="card">
+                    <div class="card-head">
+                        <h3>Landing Page</h3>
+                        <span class="tag">Angular</span>
+                    </div>
+                    <p class="desc">
+                        Responsive landing page built with Angular and TypeScript.
+                        Uses reusable components, modular structure and modern design.
+                    </p>
+                    <div class="actions">
+                        <a class="btn" href="https://davideb96.github.io/angular-landing-page/" target="_blank">Live</a>
+                        <a class="btn ghost" href="https://github.com/DavideB96/angular-landing-page"
+                            target="_blank">Code</a>
+                    </div>
+                </article>
+            </div>
+        </section>
+
+        <footer class="footer">
+            <small>© <span id="year"></span> Davide Bianchi</small>
+        </footer>
+    </main>
+
+    <script>
+        document.getElementById("year").textContent = new Date().getFullYear();
+    </script>
+</body>
+
+</html>

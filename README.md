@@ -26,17 +26,17 @@ I mainly work with:
 
 ### 🧠 CRM — Customer Management (Full-Stack)
 
-Full-stack CRM application inspired by real contact center workflows. :contentReference[oaicite:0]{index=0}  
+Full-stack CRM application inspired by real contact center workflows.
 
 **Key features:**
 
-- JWT authentication  
-- PostgreSQL relational database  
-- REST API with Express  
-- Real-time search  
-- Form validation  
-- Toast notifications  
-- Responsive React UI  
+- JWT authentication with role-based access control (Admin/Operator)
+- PostgreSQL database with server-side pagination, search & sorting
+- REST API with Express and admin middleware
+- Admin panel for user management
+- Responsive UI: table view (desktop) + card view (mobile)
+- Real-time search with debounce optimization
+- Deployed on Vercel + Render
 
 🔗 Live: https://crm-project-theta-six.vercel.app/  
 🔗 Code: https://github.com/DavideB96/crm-project  
